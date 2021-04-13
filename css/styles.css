@@ -1,0 +1,21 @@
+
+input {
+  display: block;
+  margin: 20px auto;
+  width: 45%;
+  padding: 10px 5px;
+}
+
+::placeholder {
+  font-size: 14px;
+}
+
+.gallery {
+  display: grid;
+  max-width: 1000px;
+  margin: auto;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-auto-rows: 200px;
+  grid-gap: 25px;
+  justify-content: center;
+}
